@@ -1,6 +1,6 @@
 import customtkinter
 
-customtkinter.set_appearance_mode("dark")
+customtkinter.set_appearance_mode("System")
 customtkinter.set_default_color_theme("dark-blue")
 
 root = customtkinter.CTk()
@@ -13,6 +13,8 @@ def login():
 
 frame = customtkinter.CTkFrame(master=root)
 frame.pack(pady=20, padx=60, fill="both", expand=True)
+
+# Login Screen
 
 label = customtkinter.CTkLabel(master=frame, text="Login System", font=("Roboto", 24))
 label.pack(pady=12, padx=10)
@@ -30,3 +32,13 @@ checkbox = customtkinter.CTkCheckBox(master=frame, text="Remember Me")
 checkbox.pack(pady=12, padx=10)
 
 root.mainloop()
+
+#Error handling and validation
+
+# Login function improvement
+
+# User experience (UX) enhancements
+
+# Security considerations
+
+# Organize Code
